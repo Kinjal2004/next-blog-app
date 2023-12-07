@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Blog" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "Title" TEXT NOT NULL,
+    "Text" TEXT NOT NULL,
+    "createdAT" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
